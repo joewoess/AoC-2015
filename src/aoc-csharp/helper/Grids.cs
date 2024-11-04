@@ -93,4 +93,23 @@ public static class Grids
 
     /** Non-generic version of PointDictToGrid for getting a grid with empty spaces as emptySpace */
     public static char[,] AsCharGrid(this Dictionary<Point, char> map, char emptySpace = '.') => AsGrid(map, c => c == 0 ? emptySpace : c);
+
+    /** Set Area inside grid to value provided by the mapper function. The Area will be clamped to the size of the grid **/
+    public static TGrid[,] SetArea<TGrid>(this TGrid[,] grid, Point from, Point to, Func<TGrid, TGrid> mapper)
+    {
+        var minX = Math.Max(Math.Min(from.X, to.X), 0);
+        var maxX = Math.Min(Math.Max(from.X, to.X), grid.GetLength(0) - 1);
+        var minY = Math.Max(Math.Min(from.Y, to.Y), 0);
+        var maxY = Math.Min(Math.Max(from.Y, to.Y), grid.GetLength(1) - 1);
+
+        for (var lineIdx = minY; lineIdx <= maxY; lineIdx++)
+        {
+            for (var posIdx = minX; posIdx <= maxX; posIdx++)
+            {
+                grid[lineIdx, posIdx] = mapper(grid[lineIdx, posIdx]);
+            }
+        }
+
+        return grid;
+    }
 }
