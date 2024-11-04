@@ -10,7 +10,7 @@ This can be used to test different solutions later without having to commit the 
 |             4 |  1048970   |  5714438   |   254575   |  1038736   |
 |             5 |     2      |     2      |    255     |     55     |
 |             6 |   998996   |  1001996   |   569999   |  17836115  |
-|             7 |   part1    |   part2    |   part1    |   part2    |
+|             7 |    456     |    456     |   46065    |   14134    |
 |             8 |   part1    |   part2    |   part1    |   part2    |
 |             9 |   part1    |   part2    |   part1    |   part2    |
 |            10 |   part1    |   part2    |   part1    |   part2    |
