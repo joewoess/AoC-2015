@@ -8,7 +8,7 @@ This can be used to test different solutions later without having to commit the 
 |             2 |    101     |  1598415   |     48     |  3812909   |
 |             3 |     2      |     11     |    2081    |    2341    |
 |             4 |  1048970   |  5714438   |   254575   |  1038736   |
-|             5 |   part1    |   part2    |   part1    |   part2    |
+|             5 |     2      |     2      |    255     |     55     |
 |             6 |   part1    |   part2    |   part1    |   part2    |
 |             7 |   part1    |   part2    |   part1    |   part2    |
 |             8 |   part1    |   part2    |   part1    |   part2    |
