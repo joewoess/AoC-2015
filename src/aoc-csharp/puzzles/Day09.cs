@@ -15,7 +15,7 @@ public sealed class Day09 : PuzzleBaseLines
         Printer.DebugMsg($"Edges: {edges.ToListString()}");
 
         var result = LibTools.SymmTSPSolver(edges);
-        Printer.DebugMsg($"Google.OrTools solved to this: {result}");
+        Printer.DebugMsg($"RLib.Tsp solved to this: {result}");
         return result.Success ? result.Distance.ToString() : null;
     }
 
@@ -29,7 +29,7 @@ public sealed class Day09 : PuzzleBaseLines
         Printer.DebugMsg($"Edges: {edges.ToListString()}");
 
         var result = LibTools.SymmTSPSolver(edges, true);
-        Printer.DebugMsg($"Google.OrTools solved to this: {result}");
+        Printer.DebugMsg($"RLib.Tsp solved to this: {result}");
         return result.Success ? result.Distance.ToString() : null;
     }
 
