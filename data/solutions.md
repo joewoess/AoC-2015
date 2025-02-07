@@ -12,9 +12,9 @@ This can be used to test different solutions later without having to commit the 
 |             6 |   998996   |  1001996   |   569999   |  17836115  |
 |             7 |    456     |    456     |   46065    |   14134    |
 |             8 |   part1    |   part2    |   part1    |   part2    |
-|             9 |   part1    |   part2    |   part1    |   part2    |
-|            10 |   part1    |   part2    |   part1    |   part2    |
-|            11 |   part1    |   part2    |   part1    |   part2    |
+|             9 |    605     |    982     |    207     |    804     |
+|            10 |   237746   |  3369156   |   329356   |  4666278   |
+|            11 |     12     |     19     |    1342    |    2074    |
 |            12 |   part1    |   part2    |   part1    |   part2    |
 |            13 |   part1    |   part2    |   part1    |   part2    |
 |            14 |   part1    |   part2    |   part1    |   part2    |
