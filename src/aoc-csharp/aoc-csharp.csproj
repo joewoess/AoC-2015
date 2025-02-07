@@ -10,5 +10,6 @@
 
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageReference Include="RLib.Tsp" Version="1.1.0-gb7eaa9bb98" />
   </ItemGroup>
 </Project>
