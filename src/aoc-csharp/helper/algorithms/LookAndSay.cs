@@ -7,6 +7,8 @@ public sealed class LookAndSay
     private const int MaxExcerptLength = 100;
     public static string LookAndSayIteration(ReadOnlySpan<char> text)
     {
+        if (text.Length == 0)
+            return string.Empty;
         var numChar = 1;
         var lastChar = text[0];
         var result = new StringBuilder();
@@ -28,6 +30,8 @@ public sealed class LookAndSay
 
     public static string LookAndSayNTimes(ReadOnlySpan<char> seed, int times)
     {
+        if (seed.Length == 0)
+            return string.Empty;
         string permutatedText = seed.ToString();
         times.DoTimes(() => permutatedText = LookAndSayIteration(permutatedText));
 
