@@ -11,11 +11,11 @@ This can be used to test different solutions later without having to commit the 
 |             5 |     2      |     2      |    255     |     55     |
 |             6 |   998996   |  1001996   |   569999   |  17836115  |
 |             7 |    456     |    456     |   46065    |   14134    |
-|             8 |   part1    |   part2    |   part1    |   part2    |
+|             8 |     12     |     19     |    1342    |    2074    |
 |             9 |    605     |    982     |    207     |    804     |
 |            10 |   237746   |  3369156   |   329356   |  4666278   |
 |            11 |     12     |     19     |    1342    |    2074    |
-|            12 |   part1    |   part2    |   part1    |   part2    |
+|            12 |  ghjaabcc  |  ghjbbcdd  |  cqjxxyzz  |  cqkaabcc  |
 |            13 |   part1    |   part2    |   part1    |   part2    |
 |            14 |   part1    |   part2    |   part1    |   part2    |
 |            15 |   part1    |   part2    |   part1    |   part2    |
