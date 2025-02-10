@@ -1,9 +1,9 @@
 using RLib.Tsp;
 using RLib.Tsp.Enums;
 
-namespace aoc_csharp.helper;
+namespace aoc_csharp.helper.algorithms;
 
-public static class LibTools
+public static class TSP
 {
     public sealed record TSPResult(bool Success, string[] Path, int Distance)
     {
@@ -14,7 +14,13 @@ public static class LibTools
     };
     public sealed record Edge(string Start, string End, int Cost);
 
-    public static TSPResult SymmTSPSolver(List<Edge> edges, bool findLongestInstead = false)
+    /// <summary>
+    /// Solve a TSP given by an amount of edges with their costs
+    /// </summary>
+    /// <param name="edges">Possible paths with their cost</param>
+    /// <param name="findLongestInstead"></param>
+    /// <returns></returns>
+    public static TSPResult SolveSymmetricalTSP(List<Edge> edges, bool findLongestInstead = false)
     {
         // Create a node-to-index map
         var nodes = edges.Select(e => e.Start)

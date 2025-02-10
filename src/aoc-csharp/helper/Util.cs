@@ -96,4 +96,16 @@ public static class Util
     /** Enumerate with index used in foreach **/
     public static IEnumerable<(T item, int index)> WithIndex<T>(this IEnumerable<T> self)
        => self.Select((item, index) => (item, index));
+
+    /** Sliding window over a string **/
+    public static IEnumerable<string> Window(this string self, int windowSize)
+    {
+        if (self.Length >= windowSize)
+        {
+            for (int idx = 0; idx < self.Length - windowSize; idx++)
+            {
+                yield return self[idx..(idx + windowSize)];
+            }
+        }
+    }
 }
