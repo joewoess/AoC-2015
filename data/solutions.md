@@ -16,7 +16,7 @@ This can be used to test different solutions later without having to commit the 
 |            10 |   237746   |  3369156   |   329356   |  4666278   |
 |            11 |     12     |     19     |    1342    |    2074    |
 |            12 |  ghjaabcc  |  ghjbbcdd  |  cqjxxyzz  |  cqkaabcc  |
-|            13 |   part1    |   part2    |   part1    |   part2    |
+|            13 |     6      |     4      |   119433   |   68466    |
 |            14 |   part1    |   part2    |   part1    |   part2    |
 |            15 |   part1    |   part2    |   part1    |   part2    |
 |            16 |   part1    |   part2    |   part1    |   part2    |
