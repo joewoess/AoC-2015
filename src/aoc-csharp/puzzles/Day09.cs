@@ -13,7 +13,7 @@ public sealed class Day09 : PuzzleBaseLines
 
         Printer.DebugMsg($"Edges: {edges.ToListString()}");
 
-        var result = TSP.SolveSymmetricalTSP(edges);
+        var result = TSP.SolveTSP(edges);
         Printer.DebugMsg($"RLib.Tsp solved to this: {result}");
         return result.Success ? result.Distance.ToString() : null;
     }
@@ -27,7 +27,7 @@ public sealed class Day09 : PuzzleBaseLines
 
         Printer.DebugMsg($"Edges: {edges.ToListString()}");
 
-        var result = TSP.SolveSymmetricalTSP(edges, true);
+        var result = TSP.SolveTSP(edges, true);
         Printer.DebugMsg($"RLib.Tsp solved to this: {result}");
         return result.Success ? result.Distance.ToString() : null;
     }
