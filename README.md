@@ -23,8 +23,8 @@ All implemented solutions will be linked in the [Challenges table](##Challenges)
 |  11 | [Corporate Policy](https://adventofcode.com/2015/day/11)                      | [Csharp](src/aoc-csharp/puzzles/Day11.cs) | FSharp | Typescript | Rust | Python |
 |  12 | [JSAbacusFramework.io](https://adventofcode.com/2015/day/12)                  | [Csharp](src/aoc-csharp/puzzles/Day12.cs) | FSharp | Typescript | Rust | Python |
 |  13 | [Knights of the Dinner Table](https://adventofcode.com/2015/day/13)           | [Csharp](src/aoc-csharp/puzzles/Day13.cs) | FSharp | Typescript | Rust | Python |
-|  14 | [Reindeer Olympics](https://adventofcode.com/2015/day/14)                     | [Csharp](src/aoc-csharp/puzzles/Day14.cs) | FSharp | Typescript | Rust | Python |
-|  15 | [Science for Hungry People](https://adventofcode.com/2015/day/15)             | [Csharp](src/aoc-csharp/puzzles/Day15.cs) | FSharp | Typescript | Rust | Python |
+|  14 | [Reindeer Olympics](https://adventofcode.com/2015/day/14)                     |                  Csharp                   | FSharp | Typescript | Rust | Python |
+|  15 | [Science for Hungry People](https://adventofcode.com/2015/day/15)             |                  Csharp                   | FSharp | Typescript | Rust | Python |
 |  16 | [Aunt Sue](https://adventofcode.com/2015/day/16)                              |                  Csharp                   | FSharp | Typescript | Rust | Python |
 |  17 | [No Such Thing as Too Much](https://adventofcode.com/2015/day/17)             |                  Csharp                   | FSharp | Typescript | Rust | Python |
 |  18 | [Like a GIF For Your Yard](https://adventofcode.com/2015/day/18)              |                  Csharp                   | FSharp | Typescript | Rust | Python |
